@@ -130,7 +130,7 @@ z*G ?= R + c*PK = rG + c*(aG)
 
 ![](img/schnorr-sim-5.png)
 
-第四步：Zlice 将第三步产生的随机数 `z` 发送给 Bob，Bob 按照 Schnorr 协议的验证公式进行验证，大家可以检查下，这个公式完美成立。
+第四步：Zlice 将第二步产生的随机数 `z` 发送给 Bob，Bob 按照 Schnorr 协议的验证公式进行验证，大家可以检查下，这个公式完美成立。
 
 大家可以再对比下「现实世界」的 Schnorr 协议，在两个世界中，Bob 都能通过验证。
 
